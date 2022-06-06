@@ -27,4 +27,10 @@ choose serive to http, and name changed to Port_80
 
 ##  Deploy app to linux vm
 
-    go to all resource
+    go to all resource=> click create a resource=>click virtual machine, choose ubunut server, choose password
+    choose public inbound ports (http 80 and ssh 22)
+
+    download putty=> putty configuration=> copy vm ip address to hostname, click on open, and choose yes
+    quite some settings require on linux nginx server
+
+    
